@@ -1,0 +1,1 @@
+"use strict";angular.module("arizeApp",["ngCookies","ngResource","ngSanitize","ngRoute"]).config(["$routeProvider",function(a){a.when("/",{templateUrl:"views/main.html",controller:"MainCtrl"}).otherwise({redirectTo:"/"})}]),angular.module("arizeApp").controller("MainCtrl",["$scope",function(){}]);
